@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vitta Pet — Cuidado que vira carinho</title>
+<meta name="description" content="Pet shop premium com banho, tosa, veterinário, vacinação, hotel para pets, táxi pet e loja completa de produtos. Cuidado e carinho para o seu melhor amigo.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="topo">
+  <div class="header-inner">
+    <a href="#topo" class="brand" aria-label="Vitta Pet — página inicial">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 28c-7 0-13.5 4.6-13.5 10.2 0 3 2.6 4.8 6 4.1 2.6-.6 4.8-2 7.5-2s4.9 1.4 7.5 2c3.4.7 6-1.1 6-4.1C37.5 32.6 31 28 24 28z" fill="currentColor"/>
+          <ellipse cx="10.5" cy="20.5" rx="4.6" ry="5.8" fill="currentColor"/>
+          <ellipse cx="37.5" cy="20.5" rx="4.6" ry="5.8" fill="currentColor"/>
+          <ellipse cx="17.5" cy="10.5" rx="4" ry="5.2" fill="currentColor"/>
+          <ellipse cx="30.5" cy="10.5" rx="4" ry="5.2" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="brand-text">Vitta<em>Pet</em></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#diferenciais">Diferenciais</a></li>
+        <li><a href="#" class="nav-catalog-trigger" data-open-catalog>Serviços</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#contato" class="btn btn-primary btn-sm">Agendar Atendimento</a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== MENU MOBILE ===================== -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<nav class="mobile-menu" id="mobileMenu" aria-label="Navegação mobile">
+  <div class="mobile-menu-top">
+    <span class="brand-text">Vitta<em>Pet</em></span>
+    <button class="mobile-close" id="mobileCloseBtn" aria-label="Fechar menu">&times;</button>
+  </div>
+  <ul class="mobile-menu-list">
+    <li><a href="#sobre" class="mobile-link">Sobre</a></li>
+    <li><a href="#diferenciais" class="mobile-link">Diferenciais</a></li>
+    <li><a href="#" class="mobile-link nav-catalog-trigger" data-open-catalog>Serviços</a></li>
+    <li><a href="#galeria" class="mobile-link">Galeria</a></li>
+    <li><a href="#depoimentos" class="mobile-link">Depoimentos</a></li>
+    <li><a href="#horario" class="mobile-link">Horário</a></li>
+    <li><a href="#localizacao" class="mobile-link">Localização</a></li>
+    <li><a href="#contato" class="mobile-link">Contato</a></li>
+  </ul>
+  <a href="#contato" class="btn btn-primary mobile-cta">Agendar Atendimento</a>
+  <div class="mobile-menu-contact">
+    <a href="https://wa.me/5511998765432" target="_blank" rel="noopener">(11) 99876-5432 · WhatsApp</a>
+  </div>
+</nav>
+
+<main id="conteudo">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Pet shop premium desde 2014</p>
+        <h1>Cuidado que <em>vira carinho.</em></h1>
+        <p class="hero-lead">Banho, tosa, veterinário, vacinação, hotel e táxi pet — tudo em um só lugar, com a atenção e o carinho que o seu melhor amigo merece todos os dias.</p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn btn-primary">Agendar Atendimento</a>
+          <a href="#" class="btn btn-outline" data-open-catalog>Conheça nossos serviços</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <strong>10+</strong>
+            <span>anos de cuidado</span>
+          </div>
+          <div class="hero-stat">
+            <strong>8.000+</strong>
+            <span>pets atendidos</span>
+          </div>
+          <div class="hero-stat">
+            <strong>4,9<span class="star" aria-hidden="true">★</span></strong>
+            <span>avaliação média</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-blob hero-blob-a">
+          <img
+            src="https://images.pexels.com/photos/16730750/pexels-photo-16730750.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            data-fallback="https://images.pexels.com/photos/16730750/pexels-photo-16730750.jpeg?auto=compress&cs=tinysrgb&w=1400"
+            alt="Cachorro sorrindo com expressão alegre, luz dourada" loading="eager">
+        </div>
+        <div class="hero-blob hero-blob-b">
+          <img
+            src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=800"
+            data-fallback="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            alt="Gatinho fofo com olhos verdes marcantes" loading="lazy">
+        </div>
+        <div class="hero-badge">
+          <span>🐾</span>
+          <div>
+            <strong>Ambiente 100% seguro</strong>
+            <small>higienização certificada</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave" aria-hidden="true"></div>
+  </section>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section class="section about" id="sobre">
+    <div class="section-inner about-grid">
+      <div class="about-visual">
+        <div class="about-blob">
+          <img
+            src="https://images.pexels.com/photos/6131005/pexels-photo-6131005.jpeg?auto=compress&cs=tinysrgb&w=900"
+            data-fallback="https://images.pexels.com/photos/6816863/pexels-photo-6816863.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            alt="Groomer da Vitta Pet realizando tosa com atenção aos detalhes" loading="lazy">
+        </div>
+        <div class="about-visual-tag">
+          <strong>Desde 2014</strong>
+          <span>cuidando de quem não troca você por nada</span>
+        </div>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">Nossa história</p>
+        <h2>Tudo começou com uma cadelinha chamada Vitta</h2>
+        <p>A Vitta Pet nasceu em 2014, de um sonho simples: criar um espaço onde os pets fossem tratados como parte da família — porque é exatamente isso que eles são. O nome é uma homenagem à cadelinha que inspirou tudo, uma vira-lata caramelo resgatada que ensinou que cuidado de verdade não tem raça, tamanho, nem pressa.</p>
+        <p>Hoje somos um espaço completo de bem-estar animal: banho e tosa, atendimento veterinário, vacinação, hotel, táxi pet e uma loja com produtos selecionados a dedo. Mas o que não mudou desde o primeiro dia é o jeito de cuidar — com paciência, escuta e muito carinho em cada detalhe.</p>
+        <ul class="about-list">
+          <li><strong>Missão:</strong> oferecer bem-estar físico e emocional para pets e tranquilidade para seus tutores.</li>
+          <li><strong>Compromisso:</strong> protocolos rígidos de higiene, segurança e respeito ao tempo de cada animal.</li>
+          <li><strong>Equipe:</strong> profissionais certificados que atualizam constantemente suas técnicas.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DIFERENCIAIS ===================== -->
+  <section class="section diferenciais alt-bg" id="diferenciais">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="eyebrow">Por que a Vitta Pet</p>
+        <h2>Cuidado que faz diferença no dia a dia</h2>
+        <p class="section-sub">Cinco compromissos que sustentam cada atendimento, desde o primeiro banho até a última visita ao veterinário.</p>
+      </div>
+
+      <div class="diff-grid">
+        <article class="diff-card">
+          <span class="diff-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M20 33s-12-7.4-12-16.2C8 11.6 11.8 8 16.3 8c2.4 0 4.6 1.2 5.7 3 1.1-1.8 3.3-3 5.7-3C32.2 8 36 11.6 36 16.8 36 25.6 20 33 20 33z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Atendimento Especializado</h3>
+          <p>Cada pet é único — avaliamos temperamento, idade e histórico antes de qualquer serviço, sem pressa e sem padronizar o cuidado.</p>
+        </article>
+
+        <article class="diff-card">
+          <span class="diff-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M20 7l11 4v9c0 8-4.7 13.8-11 16-6.3-2.2-11-8-11-16v-9l11-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M15 20l3.5 3.5L26 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Equipe Qualificada</h3>
+          <p>Veterinários, groomers e tutores de hotelaria certificados, com reciclagem técnica constante e paixão genuína por animais.</p>
+        </article>
+
+        <article class="diff-card">
+          <span class="diff-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="7" y="12" width="26" height="20" rx="3" stroke="currentColor" stroke-width="2"/><path d="M13 12V9a7 7 0 0114 0v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Ambiente Seguro</h3>
+          <p>Espaço climatizado, higienizado após cada atendimento e monitorado, para que seu pet fique tranquilo do início ao fim.</p>
+        </article>
+
+        <article class="diff-card">
+          <span class="diff-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M6 15l14-8 14 8-14 8-14-8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M6 15v10l14 8 14-8V15" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Produtos de Qualidade</h3>
+          <p>Curadoria de marcas premium em rações, petiscos e acessórios — nada entra na loja sem antes ser testado pela equipe.</p>
+        </article>
+
+        <article class="diff-card">
+          <span class="diff-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M20 33s-13-8-13-17.3C7 11 10.4 7.5 14.7 7.5c2.6 0 5 1.4 6.3 3.6 1.3-2.2 3.7-3.6 6.3-3.6 4.3 0 7.7 3.5 7.7 8.2C35 25 22 33 20 33z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Amor e Cuidado</h3>
+          <p>Mais do que serviços, criamos vínculo. Cada pet é chamado pelo nome e recebe atenção individual em cada visita.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVIÇOS ===================== -->
+  <section class="section servicos" id="servicos">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="eyebrow">O que fazemos</p>
+        <h2>Serviços completos para o bem-estar do seu pet</h2>
+        <p class="section-sub">Do banho de rotina ao hotel de fim de semana — conheça o catálogo completo com valores.</p>
+      </div>
+
+      <div class="servicos-grid">
+
+        <article class="servico-card">
+          <div class="servico-img">
+            <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=800&q=80" data-fallback="https://images.pexels.com/photos/6816863/pexels-photo-6816863.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Golden retriever sendo banhado com carinho pela equipe" loading="lazy">
+          </div>
+          <h3>Banho</h3>
+          <p>Produtos hipoalergênicos, secagem completa e escovação de acabamento.</p>
+          <div class="servico-footer">
+            <span class="servico-preco">a partir de R$ 60</span>
+            <a href="#" class="servico-link" data-open-catalog data-category="banho">Ver catálogo</a>
+          </div>
+        </article>
+
+        <article class="servico-card">
+          <div class="servico-img">
+            <img src="https://images.pexels.com/photos/6131007/pexels-photo-6131007.jpeg?auto=compress&cs=tinysrgb&w=800" data-fallback="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=800&q=80" alt="Profissional realizando tosa em um cão" loading="lazy">
+          </div>
+          <h3>Tosa</h3>
+          <p>Tosa higiênica, na máquina ou na tesoura, com acabamento personalizado.</p>
+          <div class="servico-footer">
+            <span class="servico-preco">a partir de R$ 45</span>
+            <a href="#" class="servico-link" data-open-catalog data-category="tosa">Ver catálogo</a>
+          </div>
+        </article>
+
+        <article class="servico-card">
+          <div class="servico-img">
+            <img src="https://images.pexels.com/photos/6235233/pexels-photo-6235233.jpeg?auto=compress&cs=tinysrgb&w=800" data-fallback="https://images.pexels.com/photos/1350591/pexels-photo-1350591.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Veterinária examinando um cão com carinho" loading="lazy">
+          </div>
+          <h3>Consulta Veterinária</h3>
+          <p>Avaliação clínica completa com veterinários experientes.</p>
+          <div class="servico-footer">
+            <span class="servico-preco">a partir de R$ 120</span>
+            <a href="#" class="servico-link" data-open-catalog data-category="veterinario">Ver catálogo</a>
+          </div>
+        </article>
+
+        <article class="servico-card">
+          <div class="servico-img">
+            <img src="https://images.pexels.com/photos/1350591/pexels-photo-1350591.jpeg?auto=compress&cs=tinysrgb&w=800" data-fallback="https://images.pexels.com/photos/6235233/pexels-photo-6235233.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cão recebendo aplicação de vacina com tranquilidade" loading="lazy">
+          </div>
+          <h3>Vacinação</h3>
+          <p>Calendário completo de vacinas com acompanhamento veterinário.</p>
+          <div class="servico-footer">
+            <span class="servico-preco">a partir de R$ 60</span>
+            <a href="#" class="servico-link" data-open-catalog data-category="vacinacao">Ver catálogo</a>
+          </div>
+        </article>
+
+        <article class="servico-card">
+          <div class="servico-img">
+            <img src="https://images.pexels.com/photos/4148015/pexels-photo-4148015.jpeg?auto=compress&cs=tinysrgb&w=800" data-fallback="https://images.pexels.com/photos/6816983/pexels-photo-6816983.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Filhote descansando confortavelmente sobre manta macia" loading="lazy">
+          </div>
+          <h3>Hotel para Pets</h3>
+          <p>Hospedagem com alimentação, monitoramento e muito carinho.</p>
+          <div class="servico-footer">
+            <span class="servico-preco">diária a partir de R$ 110</span>
+            <a href="#" class="servico-link" data-open-catalog data-category="hotel">Ver catálogo</a>
+          </div>
+        </article>
+
+        <article class="servico-card">
+          <div class="servico-img">
+            <img src="https://images.pexels.com/photos/6816983/pexels-photo-6816983.jpeg?auto=compress&cs=tinysrgb&w=800" data-fallback="https://images.pexels.com/photos/16730750/pexels-photo-16730750.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Motorista do táxi pet pronta para buscar seu pet" loading="lazy">
+          </div>
+          <h3>Táxi Pet</h3>
+          <p>Buscamos e levamos seu pet com todo o conforto e segurança.</p>
+          <div class="servico-footer">
+            <span class="servico-preco">a partir de R$ 35</span>
+            <a href="#" class="servico-link" data-open-catalog data-category="taxi">Ver catálogo</a>
+          </div>
+        </article>
+
+        <article class="servico-card">
+          <div class="servico-img">
+            <img src="https://images.pexels.com/photos/208773/pexels-photo-208773.jpeg?auto=compress&cs=tinysrgb&w=800" data-fallback="https://images.pexels.com/photos/208773/pexels-photo-208773.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Gato tranquilo ao lado de decoração — ambiente da loja" loading="lazy">
+          </div>
+          <h3>Loja de Produtos</h3>
+          <p>Rações, petiscos, camas e acessórios com curadoria premium.</p>
+          <div class="servico-footer">
+            <span class="servico-preco">consulte a loja</span>
+            <a href="#" class="servico-link" data-open-catalog data-category="produtos">Ver catálogo</a>
+          </div>
+        </article>
+
+        <article class="servico-card">
+          <div class="servico-img">
+            <img src="https://images.pexels.com/photos/16730750/pexels-photo-16730750.jpeg?auto=compress&cs=tinysrgb&w=800" data-fallback="https://images.pexels.com/photos/6816863/pexels-photo-6816863.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cão usando óculos de coração — acessórios divertidos" loading="lazy">
+          </div>
+          <h3>Acessórios &amp; Spa</h3>
+          <p>Coleiras, roupinhas, corte de unhas e escovação dental.</p>
+          <div class="servico-footer">
+            <span class="servico-preco">a partir de R$ 20</span>
+            <a href="#" class="servico-link" data-open-catalog data-category="acessorios">Ver catálogo</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALERIA ===================== -->
+  <section class="section galeria alt-bg" id="galeria">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="eyebrow">Nosso dia a dia</p>
+        <h2>Momentos reais da Vitta Pet</h2>
+        <p class="section-sub">Cães, gatos e bastidores do nosso espaço — clique em qualquer imagem para ampliar.</p>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <button class="gallery-item" data-full="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1400">
+          <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=900" data-fallback="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Golden retriever sorrindo, olhar carinhoso" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&w=1200">
+          <img src="https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&w=900" data-fallback="https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Gato ruivo com bandana, expressão curiosa" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="https://images.pexels.com/photos/6131007/pexels-photo-6131007.jpeg?auto=compress&cs=tinysrgb&w=1200">
+          <img src="https://images.pexels.com/photos/6131007/pexels-photo-6131007.jpeg?auto=compress&cs=tinysrgb&w=900" data-fallback="https://images.pexels.com/photos/6816863/pexels-photo-6816863.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Yorkshire recebendo acabamento de tosa com tesoura" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="https://images.pexels.com/photos/1350591/pexels-photo-1350591.jpeg?auto=compress&cs=tinysrgb&w=1200">
+          <img src="https://images.pexels.com/photos/1350591/pexels-photo-1350591.jpeg?auto=compress&cs=tinysrgb&w=900" data-fallback="https://images.pexels.com/photos/6235233/pexels-photo-6235233.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Atendimento veterinário com pet" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="https://images.pexels.com/photos/4148015/pexels-photo-4148015.jpeg?auto=compress&cs=tinysrgb&w=1400">
+          <img src="https://images.pexels.com/photos/4148015/pexels-photo-4148015.jpeg?auto=compress&cs=tinysrgb&w=900" data-fallback="https://images.pexels.com/photos/6816983/pexels-photo-6816983.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dois filhotes de golden retriever felizes na grama" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="https://images.pexels.com/photos/208773/pexels-photo-208773.jpeg?auto=compress&cs=tinysrgb&w=1200">
+          <img src="https://images.pexels.com/photos/208773/pexels-photo-208773.jpeg?auto=compress&cs=tinysrgb&w=900" data-fallback="https://images.pexels.com/photos/208773/pexels-photo-208773.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Gato ragdoll relaxado ao lado de orquídeas" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="https://images.pexels.com/photos/16730750/pexels-photo-16730750.jpeg?auto=compress&cs=tinysrgb&w=1200">
+          <img src="https://images.pexels.com/photos/16730750/pexels-photo-16730750.jpeg?auto=compress&cs=tinysrgb&w=900" data-fallback="https://images.pexels.com/photos/6816863/pexels-photo-6816863.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Yorkshire recém tosado, com pelo alinhado" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="https://images.pexels.com/photos/1938126/pexels-photo-1938126.jpeg?auto=compress&cs=tinysrgb&w=1200">
+          <img src="https://images.pexels.com/photos/1938126/pexels-photo-1938126.jpeg?auto=compress&cs=tinysrgb&w=900" data-fallback="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cachorro filhote fofo brincando" loading="lazy">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DEPOIMENTOS ===================== -->
+  <section class="section depoimentos" id="depoimentos">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="eyebrow">Quem confia</p>
+        <h2>O carinho contado por quem vive isso</h2>
+      </div>
+
+      <div class="testimonial-carousel">
+        <div class="testimonial-track" id="testimonialTrack">
+          <figure class="testimonial-card">
+            <p class="testimonial-quote">“O Thor chegava tremendo de ansiedade no antigo pet shop. Na Vitta, ele entra puxando a guia de tanta vontade. A diferença no cuidado é gritante.”</p>
+            <figcaption>
+              <strong>Marina Alves</strong>
+              <span>tutora do Thor, Golden Retriever</span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card">
+            <p class="testimonial-quote">“Levo a Mia para o hotel sempre que viajo e recebo fotos dela todos os dias. Isso me dá uma tranquilidade que eu não tinha em nenhum outro lugar.”</p>
+            <figcaption>
+              <strong>Rafael Costa</strong>
+              <span>tutor da Mia, gata SRD</span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card">
+            <p class="testimonial-quote">“O Bento é idoso e tem restrições de pele. A equipe veterinária montou um protocolo de banho só para ele. Cuidado de gente que entende do assunto.”</p>
+            <figcaption>
+              <strong>Beatriz Nunes</strong>
+              <span>tutora do Bento, vira-lata</span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card">
+            <p class="testimonial-quote">“O táxi pet salvou minha rotina. Buscam a Amora em casa, levam para a tosa e devolvem cheirosinha. Simplesmente impecável.”</p>
+            <figcaption>
+              <strong>Diego Fontoura</strong>
+              <span>tutor da Amora, poodle</span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="testimonial-controls">
+          <button class="testimonial-btn" id="testimonialPrev" aria-label="Depoimento anterior">‹</button>
+          <div class="testimonial-dots" id="testimonialDots"></div>
+          <button class="testimonial-btn" id="testimonialNext" aria-label="Próximo depoimento">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HORÁRIO + LOCALIZAÇÃO ===================== -->
+  <section class="section info-section alt-bg" id="horario">
+    <div class="section-inner info-grid">
+      <div class="hours-card">
+        <p class="eyebrow">Horário de funcionamento</p>
+        <h2>Estamos por perto quando você precisa</h2>
+        <ul class="hours-list">
+          <li><span>Segunda a Sexta</span><strong>08h — 19h</strong></li>
+          <li><span>Sábado</span><strong>08h — 17h</strong></li>
+          <li><span>Domingo</span><strong>09h — 13h</strong> <em>(loja e emergências)</em></li>
+          <li><span>Feriados</span><strong>Consulte disponibilidade</strong></li>
+        </ul>
+        <a href="https://wa.me/5511998765432" target="_blank" rel="noopener" class="btn btn-primary">Falar no WhatsApp</a>
+      </div>
+
+      <div class="map-card" id="localizacao">
+        <p class="eyebrow">Localização</p>
+        <h2>Venha nos visitar</h2>
+        <p class="section-sub" style="margin-bottom:1.5rem;">Av. das Palmeiras, 482 — Jardim Botânico, São Paulo – SP</p>
+
+        <div class="illustrated-map" role="img" aria-label="Mapa ilustrativo indicando a localização da Vitta Pet na Av. das Palmeiras, 482">
+          <svg viewBox="0 0 400 260" preserveAspectRatio="none" class="map-svg" aria-hidden="true">
+            <rect width="400" height="260" fill="var(--map-bg)"/>
+            <path d="M0 60 H400" stroke="var(--map-line)" stroke-width="10"/>
+            <path d="M0 170 H400" stroke="var(--map-line)" stroke-width="14"/>
+            <path d="M90 0 V260" stroke="var(--map-line)" stroke-width="10"/>
+            <path d="M290 0 V260" stroke="var(--map-line)" stroke-width="8"/>
+            <path d="M0 60 H400" stroke="var(--map-line-dash)" stroke-width="2" stroke-dasharray="6 6"/>
+            <path d="M0 170 H400" stroke="var(--map-line-dash)" stroke-width="2" stroke-dasharray="6 6"/>
+            <rect x="30" y="90" width="45" height="55" rx="4" fill="var(--map-block)"/>
+            <rect x="130" y="20" width="60" height="30" rx="4" fill="var(--map-block)"/>
+            <rect x="320" y="90" width="55" height="60" rx="4" fill="var(--map-block)"/>
+            <rect x="140" y="190" width="70" height="50" rx="4" fill="var(--map-block)"/>
+            <circle cx="220" cy="115" r="60" fill="var(--map-park)"/>
+          </svg>
+          <div class="map-pin">
+            <span class="map-pin-dot"></span>
+            <span class="map-pin-pulse"></span>
+          </div>
+          <a class="map-route-btn" href="https://www.google.com/maps/search/?api=1&query=Av.+das+Palmeiras+482+Jardim+Botanico+Sao+Paulo" target="_blank" rel="noopener">
+            Ver rotas no mapa
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA / CONTATO ===================== -->
+  <section class="cta-final" id="contato">
+    <div class="section-inner cta-final-inner">
+      <div>
+        <p class="eyebrow eyebrow-light">Vamos cuidar do seu pet</p>
+        <h2>Agende o próximo atendimento em poucos minutos</h2>
+        <p>Fale com a nossa equipe pelo WhatsApp ou telefone e garanta o melhor horário para o seu companheiro.</p>
+      </div>
+      <div class="cta-final-actions">
+        <a href="https://wa.me/5511998765432" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Agendar pelo WhatsApp</a>
+        <a href="tel:+551140028922" class="btn btn-outline-light btn-lg">Ligar (11) 4002-8922</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== CATÁLOGO (MODAL) ===================== -->
+<div class="catalog-overlay" id="catalogOverlay" role="dialog" aria-modal="true" aria-label="Catálogo de serviços">
+  <div class="catalog-panel" id="catalogPanel">
+
+    <header class="catalog-header">
+      <button class="catalog-back" id="catalogBackBtn" aria-label="Voltar ao site">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Voltar</span>
+      </button>
+      <div class="catalog-title">
+        <p class="eyebrow">Catálogo completo</p>
+        <h2>Serviços Vitta Pet</h2>
+      </div>
+      <button class="catalog-close" id="catalogCloseBtn" aria-label="Fechar catálogo">&times;</button>
+    </header>
+
+    <nav class="catalog-tabs" id="catalogTabs" aria-label="Categorias do catálogo">
+      <button class="catalog-tab is-active" data-target="banho">Banho</button>
+      <button class="catalog-tab" data-target="tosa">Tosa</button>
+      <button class="catalog-tab" data-target="veterinario">Veterinário</button>
+      <button class="catalog-tab" data-target="vacinacao">Vacinação</button>
+      <button class="catalog-tab" data-target="hotel">Hotel para Pets</button>
+      <button class="catalog-tab" data-target="taxi">Táxi Pet</button>
+      <button class="catalog-tab" data-target="produtos">Produtos</button>
+      <button class="catalog-tab" data-target="acessorios">Acessórios</button>
+    </nav>
+
+    <div class="catalog-body" id="catalogBody">
+
+      <section class="catalog-category" id="cat-banho" data-category="banho">
+        <h3>Banho</h3>
+        <div class="catalog-items">
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Banho Tradicional</h4>
+              <p>Shampoo neutro, secagem completa e escovação de acabamento.</p>
+            </div>
+            <span class="catalog-price">R$ 60</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Banho Hidratante</h4>
+              <p>Máscara de hidratação profunda e perfume de longa duração.</p>
+            </div>
+            <span class="catalog-price">R$ 85</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Banho Terapêutico</h4>
+              <p>Produtos dermatológicos indicados para peles sensíveis ou com alergias.</p>
+            </div>
+            <span class="catalog-price">R$ 110</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="catalog-category" id="cat-tosa" data-category="tosa">
+        <h3>Tosa</h3>
+        <div class="catalog-items">
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Tosa Higiênica</h4>
+              <p>Aparo de patinhas, focinho e região íntima para o dia a dia.</p>
+            </div>
+            <span class="catalog-price">R$ 45</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Tosa na Máquina</h4>
+              <p>Pelagem uniforme em todo o corpo, indicada para todos os portes.</p>
+            </div>
+            <span class="catalog-price">R$ 80</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Tosa na Tesoura</h4>
+              <p>Acabamento artesanal e detalhado, ideal para raças de padrão.</p>
+            </div>
+            <span class="catalog-price">R$ 130</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="catalog-category" id="cat-veterinario" data-category="veterinario">
+        <h3>Veterinário</h3>
+        <div class="catalog-items">
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Consulta Clínica Geral</h4>
+              <p>Avaliação completa de saúde com veterinário experiente.</p>
+            </div>
+            <span class="catalog-price">R$ 120</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Check-up Geriátrico</h4>
+              <p>Bateria de exames voltada para pets idosos ou com necessidades especiais.</p>
+            </div>
+            <span class="catalog-price">R$ 180</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Atendimento de Urgência</h4>
+              <p>Pronto atendimento veterinário em horário estendido.</p>
+            </div>
+            <span class="catalog-price">R$ 220</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="catalog-category" id="cat-vacinacao" data-category="vacinacao">
+        <h3>Vacinação</h3>
+        <div class="catalog-items">
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>V10 (Múltipla)</h4>
+              <p>Proteção contra as principais doenças infecciosas caninas.</p>
+            </div>
+            <span class="catalog-price">R$ 90</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Antirrábica</h4>
+              <p>Vacina obrigatória de proteção contra a raiva.</p>
+            </div>
+            <span class="catalog-price">R$ 60</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Gripe Canina</h4>
+              <p>Proteção do sistema respiratório, recomendada para hotéis e creches.</p>
+            </div>
+            <span class="catalog-price">R$ 75</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="catalog-category" id="cat-hotel" data-category="hotel">
+        <h3>Hotel para Pets</h3>
+        <div class="catalog-items">
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Diária Standard</h4>
+              <p>Hospedagem com alimentação inclusa e monitoramento da equipe.</p>
+            </div>
+            <span class="catalog-price">R$ 110 / diária</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Diária Premium</h4>
+              <p>Suíte individual climatizada com câmera de acompanhamento ao vivo.</p>
+            </div>
+            <span class="catalog-price">R$ 160 / diária</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Pacote Fim de Semana</h4>
+              <p>Duas diárias com desconto especial, sexta a domingo.</p>
+            </div>
+            <span class="catalog-price">R$ 200</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="catalog-category" id="cat-taxi" data-category="taxi">
+        <h3>Táxi Pet</h3>
+        <div class="catalog-items">
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Corrida Local</h4>
+              <p>Deslocamento de ida e volta em um raio de até 5 km.</p>
+            </div>
+            <span class="catalog-price">R$ 35</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Corrida Especial</h4>
+              <p>Transporte para clínicas parceiras ou consultas fora da região.</p>
+            </div>
+            <span class="catalog-price">R$ 55</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Pacote Mensal</h4>
+              <p>8 corridas no mês, ideal para rotina de banho e tosa.</p>
+            </div>
+            <span class="catalog-price">R$ 240</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="catalog-category" id="cat-produtos" data-category="produtos">
+        <h3>Produtos</h3>
+        <div class="catalog-items">
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Ração Premium</h4>
+              <p>Linhas super premium para todas as idades e portes.</p>
+            </div>
+            <span class="catalog-price">a partir de R$ 120</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Petiscos Naturais</h4>
+              <p>Snacks funcionais, sem conservantes ou corantes artificiais.</p>
+            </div>
+            <span class="catalog-price">a partir de R$ 25</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Camas e Casinhas</h4>
+              <p>Conforto para todos os portes, com capas removíveis e laváveis.</p>
+            </div>
+            <span class="catalog-price">a partir de R$ 150</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="catalog-category" id="cat-acessorios" data-category="acessorios">
+        <h3>Acessórios</h3>
+        <div class="catalog-items">
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Coleiras e Guias</h4>
+              <p>Modelos ajustáveis, resistentes e disponíveis em diversas cores.</p>
+            </div>
+            <span class="catalog-price">a partir de R$ 40</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Roupinhas</h4>
+              <p>Peças para todas as estações, do frio intenso aos dias amenos.</p>
+            </div>
+            <span class="catalog-price">a partir de R$ 35</span>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item-info">
+              <h4>Brinquedos</h4>
+              <p>Estímulo físico e mental para pets de todas as idades.</p>
+            </div>
+            <span class="catalog-price">a partir de R$ 20</span>
+          </article>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+<!-- ===================== LIGHTBOX GALERIA ===================== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Fechar imagem">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-text footer-brand-text">Vitta<em>Pet</em></span>
+      <p>Cuidado que vira carinho. Um espaço completo de bem-estar para o seu melhor amigo, desde 2014.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram da Vitta Pet" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor"/></svg>
+        </a>
+        <a href="#" aria-label="Facebook da Vitta Pet" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M14 9h2.5V6H14c-2 0-3.5 1.5-3.5 3.5V11H8v3h2.5v6h3v-6h2.3l.4-3h-2.7V9.8c0-.5.3-.8.9-.8z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="https://wa.me/5511998765432" aria-label="WhatsApp da Vitta Pet" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 00-7.8 13.5L3 21l4.7-1.2A9 9 0 1012 3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8.5 8.8c0-.5.4-1 1-1h.7c.3 0 .6.2.7.5l.6 1.5c.1.3 0 .6-.2.8l-.5.5c.4 1 1.2 1.8 2.2 2.2l.5-.5c.2-.2.5-.3.8-.2l1.5.6c.3.1.5.4.5.7v.7c0 .6-.5 1-1 1-3.6 0-6.5-2.9-6.5-6.5z" fill="currentColor"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contato</h4>
+      <ul>
+        <li><a href="tel:+551140028922">(11) 4002-8922</a></li>
+        <li><a href="https://wa.me/5511998765432" target="_blank" rel="noopener">(11) 99876-5432 (WhatsApp)</a></li>
+        <li><a href="mailto:contato@vittapet.com.br">contato@vittapet.com.br</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Endereço</h4>
+      <ul>
+        <li>Av. das Palmeiras, 482</li>
+        <li>Jardim Botânico — São Paulo, SP</li>
+        <li>CEP 04310-000</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#" data-open-catalog>Serviços</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; <span id="anoAtual">2026</span> Vitta Pet. Todos os direitos reservados.</p>
+    <p>Feito com <span aria-hidden="true">🐾</span> para quem ama animais.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+  <svg viewBox="0 0 24 24" fill="none"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
