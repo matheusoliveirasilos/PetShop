@@ -64,7 +64,7 @@
   const mobileMenu = qs("#mobileMenu");
   const mobileOverlay = qs("#mobileOverlay");
   const mobileCloseBtn = qs("#mobileCloseBtn");
-  const mobileLinks = qsa(".mobile-link");
+  const mobileLinks = qsa(".mobile-link, .mobile-cta");
 
   let lastFocusedEl = null;
 
