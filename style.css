@@ -457,7 +457,6 @@ button {
   left: -2%;
   bottom: -6%;
   border-radius: 37% 63% 46% 54% / 57% 63% 37% 43%;
-  border: 6px solid var(--white);
   animation-delay: 1.4s;
 }
 @keyframes floaty {
@@ -465,24 +464,24 @@ button {
   50% { transform: translateY(-12px); }
 }
 
-.hero-badge {
+.hero-blob-c-wrap {
   position: absolute;
-  left: 0;
-  top: 10%;
-  background: var(--white);
-  padding: 0.85rem 1.1rem;
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-card);
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
-  max-width: 220px;
+  left: -2%;
+  top: 2%;
+  width: 42%;
+  z-index: 3;
   animation: floaty 7s ease-in-out infinite;
-  animation-delay: 0.7s;
+  animation-delay: 2.1s;
 }
-.hero-badge span { font-size: 1.4rem; }
-.hero-badge strong { display: block; font-size: 0.85rem; color: var(--cedar-deep); }
-.hero-badge small { font-size: 0.75rem; color: var(--ink-soft); }
+.hero-blob-c {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  border-radius: 58% 42% 45% 55% / 48% 52% 48% 52%;
+  animation: none;
+}
 
 .hero-wave {
   height: 60px;
@@ -1137,7 +1136,7 @@ button {
   .hamburger { display: flex; }
 
   .hero-inner { grid-template-columns: 1fr; text-align: left; }
-  .hero-visual { order: -1; min-height: 320px; margin-bottom: 1rem; }
+  .hero-visual { order: -1; min-height: 380px; margin-bottom: 1rem; }
   .hero-lead { max-width: none; }
 
   .about-grid { grid-template-columns: 1fr; }
@@ -1181,6 +1180,7 @@ button {
   .catalog-title { order: 3; width: 100%; }
   .cta-final-actions .btn { width: 100%; }
   .cta-final-actions { flex-direction: column; }
+  .hero-blob-c-wrap { width: 36%; left: -1%; top: 0; }
 }
 /* =========================================================
    GALERIA — GRID UNIFORME (fix: sem espaços em branco)
@@ -1287,14 +1287,6 @@ p { color: var(--text-muted); }
 .hero-copy h1 em { color: var(--honey); }
 .hero-stat strong { color: var(--text-strong); }
 .hero-stat span { color: var(--text-muted); }
-.hero-blob-b { border-color: var(--graphite-800); }
-.hero-badge {
-  background: var(--graphite-800);
-  border: 1px solid var(--graphite-border);
-  box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.7);
-}
-.hero-badge strong { color: var(--text-strong); }
-.hero-badge small { color: var(--text-muted); }
 .hero-wave { background: var(--graphite-950); }
 
 /* Sobre */
